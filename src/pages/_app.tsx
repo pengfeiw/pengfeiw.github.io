@@ -6,6 +6,7 @@ import {ColorModeScript} from "@chakra-ui/react";
 import theme from "src/theme";
 import {styles, ColorStyleContext, colors, localStorageColorKey, ColorStyles} from "src/theme/styles";
 import "polyfill-object.fromentries";
+import mdxComponents from "src/components/mdx";
 
 function MyApp({Component, pageProps}: AppProps) {
     const [colorScheme, setColorScheme] = useState<ColorStyles>("pink");
@@ -36,7 +37,7 @@ function MyApp({Component, pageProps}: AppProps) {
                         setColorScheme(color);
                     }
                 }}>
-                <MDXProvider components={{}}>
+                <MDXProvider components={mdxComponents}>
                     <Component {...pageProps} />
                 </MDXProvider>
             </ColorStyleContext.Provider>
