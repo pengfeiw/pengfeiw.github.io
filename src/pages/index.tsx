@@ -8,6 +8,7 @@ const Home: NextPage = () => {
             <Head>
                 <title>Wang Pengfei</title>
                 <meta name="description" content="王鹏飞" />
+                <meta name="msvalidate.01" content="4E152C9DC9228501ACC954634BDC95E1" />
                 <link rel="icon" href="/avatar.svg" />
             </Head>
 
