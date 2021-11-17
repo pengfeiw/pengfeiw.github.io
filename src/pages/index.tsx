@@ -8,7 +8,10 @@ const Home: NextPage = () => {
             <Head>
                 <title>Wang Pengfei</title>
                 <meta name="description" content="王鹏飞" />
+                {/* 必应网站验证 */}
                 <meta name="msvalidate.01" content="4E152C9DC9228501ACC954634BDC95E1" />
+                {/* 百度网站验证 */}
+                <meta name="baidu-site-verification" content="code-jPEWo73erw" />
                 <link rel="icon" href="/avatar.svg" />
             </Head>
 
