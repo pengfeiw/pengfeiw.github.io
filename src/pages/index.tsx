@@ -12,6 +12,8 @@ const Home: NextPage = () => {
                 <meta name="msvalidate.01" content="4E152C9DC9228501ACC954634BDC95E1" />
                 {/* 百度网站验证 */}
                 <meta name="baidu-site-verification" content="code-jPEWo73erw" />
+                {/* 谷歌网站验证 */}
+                <meta name="google-site-verification" content="NgazI_8tIKRr-rDSLkDKSmlARRuRoRtd9GFU7Ovq7o0" />
                 <link rel="icon" href="/avatar.svg" />
             </Head>
 
