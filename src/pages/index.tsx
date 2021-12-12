@@ -36,8 +36,8 @@ const Home: NextPage = () => {
                         <a href="https://pengfeixc.com" target="_blank">
                             <img className={styles.icon} src="/site.svg" alt="https://pengfeixc.com" />
                         </a>
-                        <a href="https://mini.pengfeixc.com" target="_blank">
-                            <img className={styles.icon} src="/m.svg" alt="https://mini.pengfeixc.com" />
+                        <a href="https://pengfeiw.github.io/minicode" target="_blank">
+                            <img className={styles.icon} src="/m.svg" alt="https://pengfeiw.github.io/minicode" />
                         </a>
                     </div>
                 </div>
