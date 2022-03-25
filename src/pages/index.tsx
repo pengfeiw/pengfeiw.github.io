@@ -15,31 +15,36 @@ const Home: NextPage = () => {
                 {/* 谷歌网站验证 */}
                 <meta name="google-site-verification" content="NgazI_8tIKRr-rDSLkDKSmlARRuRoRtd9GFU7Ovq7o0" />
                 <link rel="icon" href="/avatar.svg" />
+                <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet"></link>
             </Head>
-
             <main className={styles.main}>
-                <div className={styles.card}>
-                    <div className={styles.cardT}>
-                        <img className={styles.logo} src="/avatar.svg" alt="Wang Pengfei" />
-                        <div>
-                            <h1>Wang Pengfei</h1>
-                            <p className={styles.tag}>Interests.Learn.Practice.Success</p>
-                        </div>
+                <div className={styles.maininfo}>
+                    <div>
+                        <span>Hey</span>
+                        <span className={styles.hi}>👋</span>
+                        <span> I'm</span>
+                        &nbsp;
+                        <h1 className={styles.title}>Wang Pengfei</h1>,
                     </div>
-                    <div className={styles.cardD}>
-                        <a href="https://github.com/pengfeiw" target="_blank">
-                            <img className={styles.icon} src="/github.svg" alt="https://github.com/pengfeiw" />
-                        </a>
-                        <a href="mailto:pengfeixc@sina.com" target="_blank">
-                            <img className={styles.icon} src="/email.svg" alt="mailto:pengfeixc@sina.com" />
-                        </a>
-                        <a href="https://pengfeixc.com" target="_blank">
-                            <img className={styles.icon} src="/site.svg" alt="https://pengfeixc.com" />
-                        </a>
-                        <a href="https://pengfeiw.github.io/minicode" target="_blank">
-                            <img className={styles.icon} src="/m.svg" alt="https://pengfeiw.github.io/minicode" />
-                        </a>
+                    <div>
+                        a
+                        &nbsp;
+                        <span className={styles.profession}>developer</span>.
                     </div>
+                </div>
+                <div className={styles.tag}>
+                    Interests.Learn.Practice.Success
+                </div>
+                <div className={styles.links}>
+                    <a className={styles.link} href="https://pengfeixc.com" target="_blank">
+                        Blog
+                    </a>
+                    <a className={styles.link} href="https://pengfeiw.github.io/minicode" target="_blank">
+                        Projects
+                    </a>
+                    <a className={styles.link} href="https://github.com/pengfeiw" target="_blank">
+                        Github
+                    </a>
                 </div>
             </main>
         </div>
