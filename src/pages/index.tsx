@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                     Interests.Learn.Practice.Success
                 </div>
                 <div className={styles.links}>
-                    <a className={styles.link} href="https://pengfeixc.com" target="_blank">
+                    <a className={styles.link} href="https://pengfeixc.com/blogs" target="_blank">
                         Blog
                     </a>
                     <a className={styles.link} href="https://pengfeiw.github.io/minicode" target="_blank">
